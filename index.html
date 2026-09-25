@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.remove('no-js')</script>
+<title>Brianti — panificio pasticceria in Via dei Fiordalisi 1, Milano</title>
+<meta name="description" content="Brianti, panificio, pasticceria, caffetteria e gastronomia in Via dei Fiordalisi 1 a Milano (Giambellino): pane e focacce, la colazione al banco, il pranzo coi piatti del giorno, i dolci, le specialità delle feste e l'aperitivo. Dal lunedì al sabato dalle 7 alle 19:30.">
+<link rel="canonical" href="https://rotenzark.github.io/panificio-brianti/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brianti — ogni vostro sfizio">
+<meta property="og:description" content="Panificio, pasticceria, caffetteria e gastronomia in Via dei Fiordalisi 1, Milano. Dal lunedì al sabato, dalle 7 alle 19:30.">
+<meta property="og:image" content="https://rotenzark.github.io/panificio-brianti/img/og.jpg">
+<meta property="og:url" content="https://rotenzark.github.io/panificio-brianti/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBF8F3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&family=Satisfy&family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Brianti — Panificio Pasticceria","image":"https://rotenzark.github.io/panificio-brianti/img/og.jpg","url":"https://rotenzark.github.io/panificio-brianti/","telephone":"+393338326753","sameAs":["https://www.instagram.com/panificio_brianti/"],"servesCuisine":["Panetteria","Pasticceria","Caffetteria","Gastronomia"],"address":{"@type":"PostalAddress","streetAddress":"Via dei Fiordalisi 1","addressLocality":"Milano","postalCode":"20146","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4504,"longitude":9.13695},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"19:30"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Siete aperti il lunedì?","acceptedAnswer":{"@type":"Answer","text":"Sì: dal lunedì al sabato, dalle 7 alle 19:30. La domenica siamo chiusi."}},{"@type":"Question","name":"Si può prenotare una torta?","acceptedAnswer":{"@type":"Answer","text":"Sì, al telefono: 333 832 6753. Anche le specialità delle feste."}},{"@type":"Question","name":"Si può pranzare seduti?","acceptedAnswer":{"@type":"Answer","text":"Sì: i piatti del giorno si mangiano ai tavoli oppure si portano via."}},{"@type":"Question","name":"Fate l'aperitivo?","acceptedAnswer":{"@type":"Answer","text":"Sì, fino alle 19:30: un calice o uno spritz con le focacce del bancone."}},{"@type":"Question","name":"Si paga con la carta?","acceptedAnswer":{"@type":"Answer","text":"Sì, carte di credito e di debito, anche contactless."}},{"@type":"Question","name":"Il negozio è accessibile?","acceptedAnswer":{"@type":"Answer","text":"Sì, l'ingresso è accessibile in sedia a rotelle."}},{"@type":"Question","name":"Prima eravate in Via Inganni?","acceptedAnswer":{"@type":"Answer","text":"Sì: adesso ci trovate in Via dei Fiordalisi 1."}}]}
+</script>
+</head>
+<body>
+
+<div id="intro" class="intro" aria-hidden="true">
+  <div class="intro__in">
+    <span class="marca marca--grande"><span class="marca__b">B</span></span>
+    <p class="intro__nome">Brianti</p>
+    <p class="intro__cosa" data-i18n="i.cosa">Panificio · Pasticceria · Caffetteria · Gastronomia</p>
+  </div>
+  <button id="introSkip" class="intro__salta" type="button" data-i18n="i.skip">Salta</button>
+</div>
+
+<header class="testata">
+  <div class="testata__in">
+    <a class="marchio" href="#apertura" aria-label="Brianti, torna all'inizio" data-i18n-aria="m.top">
+      <span class="marca"><span class="marca__b">B</span></span>
+      <span class="marchio__n">Brianti</span>
+    </a>
+    <nav id="mainNav" aria-label="Sezioni" data-i18n-aria="m.nav">
+      <a href="#banco" data-i18n="n.banco">Il banco</a>
+      <a href="#qui" data-i18n="n.qui">Ci trovate qui</a>
+      <a href="#dove" data-i18n="n.dove">Orari</a>
+    </nav>
+    <div class="lingue" role="group" aria-label="Lingua" data-i18n-aria="m.lingua">
+      <button type="button" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn--pieno btn--piccolo testata__chiama" href="tel:+393338326753" data-i18n="n.chiama">Chiama</a>
+    <button id="burger" type="button" aria-label="Apri il menu" aria-controls="drawer" aria-expanded="false" data-i18n-aria="m.menu"><span></span><span></span><span></span></button>
+  </div>
+  <div id="drawer" hidden>
+    <a href="#banco" data-i18n="n.banco">Il banco</a>
+    <a href="#qui" data-i18n="n.qui">Ci trovate qui</a>
+    <a href="#recensioni" data-i18n="n.rec">Recensioni</a>
+    <a href="#dove" data-i18n="n.dove">Orari</a>
+    <a class="drawer__chiama" href="tel:+393338326753" data-i18n="n.chiama2">Chiama 333 832 6753</a>
+  </div>
+</header>
+
+<main id="contenuto">
+
+  <section id="apertura" class="apertura" aria-labelledby="aperturaTitolo">
+    <div class="dentro apertura__griglia">
+      <div class="apertura__testo">
+        <p class="eti" data-i18n="h.eti">Via dei Fiordalisi 1 · Milano</p>
+        <h1 class="apertura__t" id="aperturaTitolo" data-i18n="h.t">Ogni vostro <span class="corsivo">sfizio.</span></h1>
+        <p class="apertura__p" data-i18n="h.p">Panificio, pasticceria, caffetteria e gastronomia: il pane e le focacce, la colazione al banco, il pranzo coi piatti del giorno, i dolci, le specialità delle feste e l'aperitivo. Dal lunedì al sabato, dalle 7 alle 19:30.</p>
+        <p class="stato"><span id="orarioStato" aria-live="polite"></span></p>
+        <div class="azioni">
+          <a class="btn btn--pieno" href="tel:+393338326753" data-i18n="h.chiama">Chiama 333 832 6753</a>
+          <a class="btn btn--linea" href="https://www.google.com/maps/search/?api=1&amp;query=Panificio+Brianti+Via+dei+Fiordalisi+1+Milano" target="_blank" rel="noopener" data-i18n="h.strada">Indicazioni</a>
+        </div>
+      </div>
+      <figure class="pacchetto pacchetto--grande">
+        <div class="pacco" data-pacco>
+          <button class="shot pacco__foto" type="button" data-full="img/bancone.jpg" aria-label="Ingrandisci la foto del banco" data-i18n-aria="h.fz"><img src="img/bancone.jpg" alt="Il banco di vetro di Brianti con le teglie di pizza e di focaccia, e dietro la macchina del caffè" data-i18n-alt="h.fa" width="900" height="1125"></button>
+          <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+          <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+          <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="h.boll">il banco</span></span>
+        </div>
+        <figcaption data-i18n="h.ff">Il banco, in Via dei Fiordalisi</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="banco" class="banco" aria-labelledby="bancoTitolo">
+    <div class="dentro">
+      <header class="banco__testa">
+        <h2 class="titolo" id="bancoTitolo" data-i18n="b.t">Il banco</h2>
+        <p class="banco__sotto" data-i18n="b.sotto">Dal pane del mattino al calice della sera: tutto quello che trovate da noi, un pacchetto alla volta.</p>
+      </header>
+      <div class="pacchetti">
+        <article class="pacchetto" id="pane">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/pane.jpg" aria-label="Ingrandisci la foto del pane e delle focacce" data-i18n-aria="p1.z"><img src="img/pane.jpg" alt="Il banco pieno di focacce, pizze in teglia, panini imbottiti e pani alle olive" data-i18n-alt="p1.a" width="720" height="720"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p1.b">il pane</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p1.t">Il pane e le focacce</h3>
+          <ul class="cosa">
+            <li data-i18n="p1.l1">pane di vari formati e farine</li>
+            <li data-i18n="p1.l2">focaccia e pizza in teglia</li>
+            <li data-i18n="p1.l3">pizzette e salatini</li>
+            <li data-i18n="p1.l4">panini imbottiti e pani alle olive</li>
+          </ul>
+        </article>
+        <article class="pacchetto" id="colazione">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/colazione.jpg" aria-label="Ingrandisci la foto della colazione" data-i18n-aria="p2.z"><img src="img/colazione.jpg" alt="Un cappuccino con la schiuma a spirale e un cornetto con la granella su un vassoio" data-i18n-alt="p2.a" width="900" height="900"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p2.b">le 7</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p2.t">La colazione</h3>
+          <ul class="cosa">
+            <li data-i18n="p2.l1">dalle 7, al banco o seduti</li>
+            <li data-i18n="p2.l2">brioches e pasticciotto</li>
+            <li data-i18n="p2.l3">cappuccino e caffè marocchino</li>
+            <li data-i18n="p2.l4">cioccolata calda</li>
+          </ul>
+        </article>
+        <article class="pacchetto" id="pranzo">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/pranzo.jpg" aria-label="Ingrandisci la foto del pranzo" data-i18n-aria="p3.z"><img src="img/pranzo.jpg" alt="Zucchine e melanzane ripiene e gratinate in teglia" data-i18n-alt="p3.a" width="720" height="720"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p3.b">a pranzo</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p3.t">Il pranzo</h3>
+          <ul class="cosa">
+            <li data-i18n="p3.l1">i piatti del giorno, fatti da noi</li>
+            <li data-i18n="p3.l2">la parmigiana</li>
+            <li data-i18n="p3.l3">zucchine e melanzane ripiene</li>
+            <li data-i18n="p3.l4">ai tavoli o da portare via</li>
+          </ul>
+        </article>
+        <article class="pacchetto" id="dolci">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/dolci.jpg" aria-label="Ingrandisci la foto della crostata" data-i18n-aria="p4.z"><img src="img/dolci.jpg" alt="Una crostata di frutta con fragole, kiwi e more disposte a cerchi" data-i18n-alt="p4.a" width="640" height="640"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p4.b">i dolci</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p4.t">I dolci</h3>
+          <ul class="cosa">
+            <li data-i18n="p4.l1">torte e tortine, anche per un compleanno</li>
+            <li data-i18n="p4.l2">crostate di frutta</li>
+            <li data-i18n="p4.l3">baci di dama</li>
+            <li data-i18n="p4.l4">pasticceria mignon</li>
+          </ul>
+        </article>
+        <article class="pacchetto" id="feste">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/feste.jpg" aria-label="Ingrandisci la foto degli struffoli" data-i18n-aria="p5.z"><img src="img/feste.jpg" alt="Vassoi di struffoli coi confettini colorati" data-i18n-alt="p5.a" width="900" height="900"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p5.b">le feste</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p5.t">Le feste</h3>
+          <ul class="cosa">
+            <li data-i18n="p5.l1">casatiello e pastiera</li>
+            <li data-i18n="p5.l2">struffoli</li>
+            <li data-i18n="p5.l3">vassoi di marron glacé e arance candite al cioccolato</li>
+            <li data-i18n="p5.l4">si prenotano al telefono</li>
+          </ul>
+        </article>
+        <article class="pacchetto" id="aperitivo">
+          <div class="pacco" data-pacco>
+            <button class="shot pacco__foto" type="button" data-full="img/aperitivo.jpg" aria-label="Ingrandisci la foto dell'aperitivo" data-i18n-aria="p6.z"><img src="img/aperitivo.jpg" alt="Un flûte, due dolcetti di sfoglia alla marmellata su un piattino e una ciotola di arachidi sul tavolo di legno" data-i18n-alt="p6.a" width="900" height="900"></button>
+            <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+            <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+            <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="p6.b">la sera</span></span>
+          </div>
+          <h3 class="pacchetto__t" data-i18n="p6.t">L'aperitivo</h3>
+          <ul class="cosa">
+            <li data-i18n="p6.l1">un calice o uno spritz</li>
+            <li data-i18n="p6.l2">con le focacce del bancone</li>
+            <li data-i18n="p6.l3">o con il tagliere</li>
+            <li data-i18n="p6.l4">fino alle 19:30</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="qui" class="qui" aria-labelledby="quiTitolo">
+    <div class="dentro qui__griglia">
+      <div class="qui__testo">
+        <h2 class="titolo" id="quiTitolo" data-i18n="q0.t">Ci trovate qui</h2>
+        <p data-i18n="q0.p1">In Via dei Fiordalisi 1, vicino alla fermata Gelsomini della M4. Se ci cercavate ancora in Via Inganni: adesso siamo qui.</p>
+        <p data-i18n="q0.p2">Dentro ci sono i tavoli: si fa colazione, si pranza e si prende l'aperitivo seduti, oppure si porta via. L'ingresso è accessibile in sedia a rotelle.</p>
+      </div>
+      <figure class="pacchetto pacchetto--qui">
+        <div class="pacco" data-pacco>
+          <button class="shot pacco__foto" type="button" data-full="img/facciata.jpg" aria-label="Ingrandisci la foto della facciata" data-i18n-aria="q0.fz"><img src="img/facciata.jpg" alt="L'insegna bianca col logo Brianti e la scritta Panificio sopra la vetrina, sulla facciata di pietra grigia" data-i18n-alt="q0.fa" width="900" height="1125"></button>
+          <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+          <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+          <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="q0.b">fuori</span></span>
+        </div>
+        <figcaption data-i18n="q0.ff">Cercate l'insegna col cerchio e la B</figcaption>
+      </figure>
+      <figure class="pacchetto pacchetto--qui">
+        <div class="pacco" data-pacco>
+          <button class="shot pacco__foto" type="button" data-full="img/interno.jpg" aria-label="Ingrandisci la foto dell'interno" data-i18n-aria="q0.iz"><img src="img/interno.jpg" alt="La sala con la colonna di marmo nero, i tavoli di legno chiaro, le sedie di metallo e la parete con la scritta Brianti" data-i18n-alt="q0.ia" width="900" height="1125"></button>
+          <span class="pacco__lembo pacco__lembo--sx" aria-hidden="true"></span><span class="pacco__lembo pacco__lembo--dx" aria-hidden="true"></span>
+          <span class="pacco__spago" aria-hidden="true"><i></i><i></i></span>
+          <span class="bollino" aria-hidden="true"><span class="bollino__b">B</span><span class="bollino__t" data-i18n="q0.ib">dentro</span></span>
+        </div>
+        <figcaption data-i18n="q0.if">Dentro: legno chiaro, marmo nero e i tavoli</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="recensioni" class="note" aria-labelledby="noteTitolo">
+    <div class="dentro">
+      <h2 class="titolo" id="noteTitolo" data-i18n="r.t">Lo dicono i clienti</h2>
+      <ul class="recensioni">
+        <li class="rec reveal"><p data-i18n="rc.1">Quando passo da Milano, cerco sempre di passare da loro. Pane eccezionale. Dolci eccezionali. E se passate chiedete al ragazzo, un caffè marocchino: buonissimo! Bravissimi!</p><footer data-i18n="rc.f1">Davide Delle Fave · 5 mesi fa · 5 stelle</footer></li>
+        <li class="rec reveal"><p data-i18n="rc.2">Posto eccellente, a Milano ormai è diventato difficile trovare qualita’ come in questa panetteria. Super consigliato anche per una piccola pausa pranzo❤️ ci si sente davvero in famiglia. Consigliatissimo</p><footer data-i18n="rc.f2">Alessandra Modesto · 5 mesi fa · 5 stelle</footer></li>
+        <li class="rec reveal"><p data-i18n="rc.3">Ottima esperienza, pasticciotto molto buono, baci di dama da impazzire e tortine variegate davvero sfiziose e gustose..loro sempre gentili ed affabili creano atmosfera piacevole e cordiale da condividere con persone speciali</p><footer data-i18n="rc.f3">D S · 5 mesi fa · 5 stelle</footer></li>
+        <li class="rec reveal"><p data-i18n="rc.4">Servizio eccellente. L'ho scoperta per caso questa mattina e sono dovuta tornare anche a pranzo. la qualità è davvero eccelsa la migliore pasticceria di miglior pastificio nel raggio di almeno 5 km. Non scontato. Il personale gentilissimo</p><footer data-i18n="rc.f4">Aisha Sanogo · un anno fa · 5 stelle</footer></li>
+        <li class="rec reveal"><p data-i18n="rc.5">Sono passato per caso da questo panificio perché dovevo comprare una piccola torta di compleanno ed il lunedì tutte le pasticcerie sono chiuse. Ho preso una tortina ancora disponibile cioccolato e pere... Incredibile sorpresa positiva, una delle torte più buone che abbia mai mangiato, come fatta a casa da mani esperte! Veramente il massimo, complimenti, tornerò sicuramente!</p><footer data-i18n="rc.f5">Daniele Mazzocchi · un anno fa · 5 stelle</footer></li>
+      </ul>
+      <p class="note__piede" data-i18n="r.piede">Recensioni pubbliche su Google, copiate parola per parola.</p>
+    </div>
+  </section>
+
+  <section id="dove" class="dove" aria-labelledby="doveTitolo">
+    <div class="dentro dove__griglia">
+      <div>
+        <h2 class="titolo" id="doveTitolo" data-i18n="o.t">Orari</h2>
+        <p class="stato stato--dove"><span id="orarioStato2" aria-hidden="true"></span></p>
+        <table class="orari">
+          <tbody>
+            <tr data-day="1"><td data-i18n="o.lun">lunedì</td><td>07:00–19:30</td></tr>
+            <tr data-day="2"><td data-i18n="o.mar">martedì</td><td>07:00–19:30</td></tr>
+            <tr data-day="3"><td data-i18n="o.mer">mercoledì</td><td>07:00–19:30</td></tr>
+            <tr data-day="4"><td data-i18n="o.gio">giovedì</td><td>07:00–19:30</td></tr>
+            <tr data-day="5"><td data-i18n="o.ven">venerdì</td><td>07:00–19:30</td></tr>
+            <tr data-day="6"><td data-i18n="o.sab">sabato</td><td>07:00–19:30</td></tr>
+            <tr data-day="0"><td data-i18n="o.dom">domenica</td><td data-i18n="o.chiuso">chiuso</td></tr>
+          </tbody>
+        </table>
+        <dl class="contatti">
+          <div><dt data-i18n="o.ind">Indirizzo</dt><dd data-i18n="o.indv">Via dei Fiordalisi 1, 20146 Milano</dd></div>
+          <div><dt data-i18n="o.tel">Telefono</dt><dd><a href="tel:+393338326753">333&nbsp;832&nbsp;6753</a></dd></div>
+          <div><dt data-i18n="o.pren">Prenotazioni</dt><dd data-i18n="o.prenv">Torte e specialità delle feste: al telefono</dd></div>
+          <div><dt data-i18n="o.pag">Pagamenti</dt><dd data-i18n="o.pagv">Carte di credito e di debito, contactless</dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/panificio_brianti/" target="_blank" rel="noopener">@panificio_brianti</a></dd></div>
+        </dl>
+        <div class="azioni">
+          <a class="btn btn--pieno" href="tel:+393338326753" data-i18n="o.chiama">Chiama</a>
+          <a class="btn btn--linea" href="https://www.google.com/maps/search/?api=1&amp;query=Panificio+Brianti+Via+dei+Fiordalisi+1+Milano" target="_blank" rel="noopener" data-i18n="o.btn">Indicazioni stradali</a>
+        </div>
+      </div>
+      <div class="mappa">
+        <iframe src="https://www.google.com/maps?q=Via+dei+Fiordalisi+1,+20146+Milano&amp;z=16&amp;output=embed" title="Mappa: Brianti, Via dei Fiordalisi 1, Milano" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-i18n-title="o.mappa"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="domande" class="domande" aria-labelledby="domandeTitolo">
+    <div class="dentro">
+      <h2 class="titolo" id="domandeTitolo" data-i18n="d.t">Domande</h2>
+      <div class="faq">
+        <details class="reveal"><summary data-i18n="d.1t">Siete aperti il lunedì?</summary><p data-i18n="d.1p">Sì: dal lunedì al sabato, dalle 7 alle 19:30. La domenica siamo chiusi.</p></details>
+        <details class="reveal"><summary data-i18n="d.2t">Si può prenotare una torta?</summary><p data-i18n="d.2p">Sì, al telefono: 333&nbsp;832&nbsp;6753. Anche le specialità delle feste.</p></details>
+        <details class="reveal"><summary data-i18n="d.3t">Si può pranzare seduti?</summary><p data-i18n="d.3p">Sì: i piatti del giorno si mangiano ai tavoli oppure si portano via.</p></details>
+        <details class="reveal"><summary data-i18n="d.4t">Fate l'aperitivo?</summary><p data-i18n="d.4p">Sì, fino alle 19:30: un calice o uno spritz con le focacce del bancone.</p></details>
+        <details class="reveal"><summary data-i18n="d.5t">Si paga con la carta?</summary><p data-i18n="d.5p">Sì, carte di credito e di debito, anche contactless.</p></details>
+        <details class="reveal"><summary data-i18n="d.6t">Il negozio è accessibile?</summary><p data-i18n="d.6p">Sì, l'ingresso è accessibile in sedia a rotelle.</p></details>
+        <details class="reveal"><summary data-i18n="d.7t">Prima eravate in Via Inganni?</summary><p data-i18n="d.7p">Sì: adesso ci trovate in Via dei Fiordalisi 1.</p></details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="piede">
+  <div class="dentro piede__dentro">
+    <p class="piede__marca" aria-hidden="true"><span class="marca marca--piede"><span class="marca__b">B</span></span><span class="piede__n">Brianti</span></p>
+    <p>Brianti · Panificio Pasticceria · Via dei Fiordalisi 1, 20146 Milano · <a href="tel:+393338326753">333&nbsp;832&nbsp;6753</a> · <a href="https://www.instagram.com/panificio_brianti/" target="_blank" rel="noopener">@panificio_brianti</a></p>
+    <p data-i18n="f.orari">Dal lunedì al sabato dalle 7 alle 19:30 · domenica chiuso</p>
+    <p class="piede__cred" data-i18n="f.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · testi dalla loro scheda Google e dal loro profilo Instagram; recensioni pubbliche su Google (settembre 2026); fotografie del proprietario e dalla scheda Google.</p>
+  </div>
+</footer>
+
+<nav id="actionBar" class="barra" aria-label="Azioni rapide" data-i18n-aria="x.nav">
+  <a href="tel:+393338326753" data-i18n="x.chiama">Chiama</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Panificio+Brianti+Via+dei+Fiordalisi+1+Milano" target="_blank" rel="noopener" data-i18n="x.mappa">Mappa</a>
+  <a href="#banco" data-i18n="x.banco">Il banco</a>
+  <a href="#dove" data-i18n="x.orari">Orari</a>
+</nav>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ingrandita" data-i18n-aria="m.lightbox">
+  <button id="lightboxClose" type="button" aria-label="Chiudi" data-i18n-aria="m.chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
